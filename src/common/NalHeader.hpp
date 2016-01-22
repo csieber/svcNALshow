@@ -6,11 +6,6 @@
 
 namespace H264 {
 
-/*
- * The mps VN (virtual network) NAL header is added as a prefix to
- * every packet send in our multi-path streaming concept. The length
- * of this header is always 12 Bytes.
- */
 struct mps_nal_header {
 
 	/*

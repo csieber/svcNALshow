@@ -32,7 +32,7 @@ unzip video_5.zip
 Analyse the video bitstream:
 
 ```bash
-./StreamAnalyzer_dbg -F video_5/video_5.264
+./svcNALshow_dbg -F video_5/video_5.264
 ```
 
 The output should look like this:

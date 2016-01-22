@@ -1,15 +1,3 @@
-/*
- * This file is part of the SVC multi-path streaming project.
- *
- * Chair of Communication Networks, Department of Computer
- * Science at Julius-Maximilians University of Wuerzburg.
- *
- *
- * Contact:
- * Christian Sieber <sieber@informatik.uni-wuerzburg.de>
- * Thomas Zinner <zinner@informatik.uni-wuerzburg.de>
- */
-
 #include <iostream>
 #include <boost/program_options.hpp>
 #include "common/h264Decoder/h264Decoder.h"

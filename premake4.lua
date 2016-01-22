@@ -12,11 +12,7 @@ solution "DASH"
   location "build/"
   includedirs { "." }
 
---#########################
---# Project: StreamAnalyzer
---#########################
-
-project "StreamAnalyzer"
+project "svcNALshow"
   language "C++"
   kind "ConsoleApp"
   files { "src/**.cpp"}
@@ -25,7 +21,7 @@ project "StreamAnalyzer"
 configuration { "Debug*" }
     defines { "_DEBUG", "DEBUG" }
     flags   { "Symbols" }
-    targetname ( "StreamAnalyzer_dbg" )
+    targetname ( "svcNALshow_dbg" )
 
   configuration { "Release*" }
     defines { "NDEBUG" }
